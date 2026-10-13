@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Персональна веб-сторінка студента про себе, захоплення та програмування.">
+    <meta name="keywords" content="персональна сторінка, про себе, хобі, програмування, студент, Python">
+    <title>Romanchenko_lab01-9</title>
+    <style>
+        body {
+            background-color: #f4f7f6;
+            color: #000000; 
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: justify;
+        }
+        h1 {
+            color: #2e7d32;
+            text-align: left;
+        }
+        .signature {
+            text-align: right;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Про себе</h1>
+    <p>
+        Мене звати <b>Олександра</b>, я навчаюся у <i>Національному університеті «Полтавська політехніка імені Юрія Кондратюка»</i>. Моє навчання охоплює вивчення сучасних інформаційних технологій, алгоритмів та основ розробки програмного забезпечення.
+    </p>
+
+    <h1>Моє хобі</h1>
+    <p>
+        Окрім навчання, моїм головним захопленням є <b><i>програмування</i></b> та вивчення веб-технологій. Мені подобається створювати зручні інтерфейси та знаходити елегантні рішення для складних задач. 
+    </p>
+    <p>Нижче наведено приклад простої програми на мові Python, яку ми вивчаємо:</p>
+
+<pre>
+def greet_student(name):
+    print(f"Привіт, {name}!")
+    print("Успіхів у навчанні та розробці!")
+
+student_name = "Саша"
+greet_student(student_name)
+</pre>
+
+    <p><a href="RomanchenkoLab05-3.html">Мої гіперпосилання</a></p>
+
+    <div class="signature">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=romancenko177@gmail.com" target="_blank">
+        <u><i>Студентка групи 305-ТН Романченко О.В.</i></u></a>
+    </div>
+
+</body>
+</html>
